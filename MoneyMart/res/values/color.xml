@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="moneymart_login_bg">#DFE0DE</color>
+    <color name="color_action_bar">#FF4338</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="hyper_link">#2196F3</color>
+    <color name="progress">#01DF01</color>
+
+    
+    <!-- Forgot Password Screen -->
+    <color name="moneymart_login_forgot_password_text">#11AEE2</color>
+    <color name="username_text">#000000</color>
+    <color name="timings_text_color">#202020</color>
+
+    <!-- Drawer Menu -->
+    <color name="list_selected_background">#EBEBEB</color>
+    <color name="list_background_pressed">#EBEBEB</color>
+    <color name="list_divider">#DBDBDB</color>
+    <color name="list_text_color">#4D4D4D</color>
+
+    <!-- Personal Details -->
+    <color name="personal_details_label">#333333</color>
+    <color name="personal_details_data">#666666</color>
+    <color name="personal_details_divider">#cccccc</color>
+
+    <!-- Account Details -->
+    <color name="account_details_enter_username_label">#000000</color>
+    <color name="account_details_enter_username_data">#999999</color>
+
+    <!-- Login Screen -->
+    <color name="icon_header_bg">#FFCE3B</color>
+    <color name="signin_header_bg">#FF4338</color>
+    <color name="create_new_btn_text_color">#999999</color>
+     <color name="support">#1C2B39</color>
+    <color name="et_text_color">#AFAEAE</color>
+
+    <!-- Update Username -->
+    <color name="actaul_text_color">#11AEE2</color>
+
+    <!-- Terms and Conditions -->
+    <color name="terms_accept_text_color">#333333</color>
+    
+    <!-- My Checks -->
+    <color name="queued_font_color">#E684C2</color>
+    <color name="action_required_font_color">#666666</color>
+    <color name="check_currency_font_color">#333333</color>
+    <color name="try_again_btn_color">#34D584</color>
+    
+     <color name="black_color">#000000</color>
+    
+      <!-- My Checks Status Color -->
+    <color name="queued_status_color">#E684C2</color>
+    <color name="uploading_status_color">#53CEF6</color>
+    <color name="action_required_status_color">#B0AAAA</color>
+    <color name="review_pending_status_color">#68AAEC</color>
+    <color name="cashed_status_color">#32D382</color>
+    <color name="rejected_status_color">#FB5B5B</color>
+    
+    <!-- Sign Up -->
+    <color name="message_text_color">#FF1E00</color>
+    
+    <!-- Card Details -->
+    <color name="balance_header">#F0533E</color>
+    
+</resources>

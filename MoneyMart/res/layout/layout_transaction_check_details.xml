@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/transaction_info_lay">
+    
+    <TextView
+            android:id="@+id/tv_common_confirm_check_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/confirm_check_amount"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_13" />
+
+        <EditText
+            android:id="@+id/et_common_check_amount"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:fontFamily="sans-serif"
+            android:hint="@string/hint_0_00"
+            android:inputType="numberDecimal"
+            android:maxLength="11"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/account_details_enter_username_data"
+            android:textSize="@dimen/font_size_20" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <TextView
+            android:id="@+id/tv_common_check_made_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_33dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/check_made_date"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_13" />
+
+        <EditText
+            android:id="@+id/et_common_check_made_date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:focusable="false"
+            android:fontFamily="sans-serif"
+            android:hint="@string/date_picker_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/account_details_enter_username_data"
+            android:textSize="@dimen/font_size_20" >
+        </EditText>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <!--
+             <TextView
+            android:id="@+id/tv_momentum_card_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_30dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/momentum_card_text"
+            android:textColor="@color/personal_details_data"
+            android:textSize="@dimen/font_size_12" />
+        -->
+
+        <TextView
+            android:id="@+id/tv_common_momentum_card_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_33dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/momentum_card_text"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_13" />
+
+           <Spinner
+            android:id="@+id/details_spinner_momentum_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:focusable="false"
+            android:fontFamily="sans-serif"
+            android:hint="@string/momentum_card_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/account_details_enter_username_data"
+            android:textSize="@dimen/font_size_20" 
+            android:spinnerMode="dropdown"
+            android:dropDownWidth="fill_parent"
+            android:background="@drawable/spinner_bg"/>
+    <!--     <EditText
+            android:id="@+id/et_common_momentum_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:focusable="false"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/account_details_enter_username_data"
+            android:textSize="@dimen/font_size_20" >
+        </EditText> -->
+<!--  android:hint="@string/momentum_card_hint" -->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+    
+
+</LinearLayout>

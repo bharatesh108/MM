@@ -1,0 +1,71 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="CustomActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/color_action_bar</item>
+        <item name="android:customNavigationLayout">@layout/custom_action_bar</item>
+        <item name="android:height">@dimen/margin_44dp</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+    
+    <style name="tabMain">
+        <item name="android:textColor">@color/et_text_color</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+
+    </style>
+    
+   <!--  <style name="tab">
+    <item name="android:background">@drawable/dashboard_selection_radio_button_selector_blue</item>
+    <item name="android:textColor">@color/tab_dashboard_radio_button_blue</item>
+   </style> -->
+   
+   <style name="tab">
+    <item name="android:background">@drawable/tab_color_bg</item>
+   <!--    <item name="android:textColor">@color/tab_dashboard_radio_button_blue</item> -->
+   </style>
+  
+   <style name="moneymart_login_bg_style">
+    	<item name="android:background">@color/moneymart_login_bg</item>
+   </style>
+   
+   <style name="color_white_bg">
+   		<item name="android:background">@color/color_white</item>
+   </style>
+   
+   <style name="final_overlay_bg_port">
+   		<item name="android:background">@drawable/final_overlay</item>
+   </style>
+   
+   <style name="tutorial_back_bg_port">
+   		<item name="android:background">@drawable/tutorial_back</item>
+   </style>
+   
+   <style name="tutorial_front_bg_port">
+   		<item name="android:background">@drawable/tutorial_front</item>
+   </style>
+   
+   <style name="tutorial_void_bg_port">
+   		<item name="android:background">@drawable/tutorial_void</item>
+   </style>
+   
+</resources>

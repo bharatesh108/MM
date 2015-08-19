@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/moneymart_login_bg"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/firstname_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_firstname_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/first_name"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/secondname_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_secondname_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/second_name"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_secondname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/housenumber_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_housenumber_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/house_number"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_housenumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/street_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_street_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/street"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_street"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/city_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_city_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/city"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/county_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_county_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/county"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_county"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/state_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_state_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/state"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/postalcode_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_zippostalcode_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/postal"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_zippostalcode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/country_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_country_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/Country"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phone_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_phone_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/phone"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+
+   <!--      <LinearLayout
+            android:id="@+id/phone2_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_phone2_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/phone_2"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_phone2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout> -->
+
+        <LinearLayout
+            android:id="@+id/mobile_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_mobile_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/mobile"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_15" />
+
+            <TextView
+                android:id="@+id/tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_17dp"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/personal_details_data"
+                android:textSize="@dimen/font_size_18" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/margin_15dp"
+                android:layout_marginRight="@dimen/margin_15dp"
+                android:background="@color/personal_details_divider" />
+        </LinearLayout>
+        
+        
+            <TextView
+                android:id="@+id/tv_conatctus_link"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_40dp"
+                android:layout_marginLeft="@dimen/margin_20dp"
+                android:layout_marginRight="@dimen/margin_20dp"
+                android:layout_marginTop="@dimen/margin_35dp"
+                 android:layout_marginBottom="@dimen/font_size_38"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:linksClickable="true"
+                android:text="@string/personal_details_contact_us"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_13"
+                android:visibility="visible" />
+        
+    </LinearLayout>
+
+</ScrollView>

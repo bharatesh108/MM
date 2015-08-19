@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/moneymart_login_bg_style"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_update_password_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_70dp"
+        android:background="@color/color_white" >
+
+        <TextView
+            android:id="@+id/tv_update_password_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:drawableLeft="@drawable/unlocked_padlock"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:drawableStart="@drawable/unlocked_padlock"
+            android:fontFamily="sans-serif"
+            android:text="@string/update_password"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_15" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/moneymart_login_bg" />
+
+    <LinearLayout
+        android:id="@+id/ll_update_username_label"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_70dp"
+        android:background="@color/color_white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_update_username_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:drawableLeft="@drawable/user_silhouette_adetails"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:drawableStart="@drawable/user_silhouette_adetails"
+            android:fontFamily="sans-serif"
+            android:text="@string/update_username"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_15" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/moneymart_login_bg" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_bank_details"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_70dp"
+        android:background="@color/color_white"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tv_add_bank_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:drawableLeft="@drawable/add_account"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:drawableStart="@drawable/user_silhouette_adetails"
+            android:fontFamily="sans-serif"
+            android:text="@string/add_bank_account_title"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_15" />
+        
+        <!--   <TextView
+            android:id="@+id/tv_bank_account_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:drawableLeft="@drawable/add_account"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:drawableStart="@drawable/user_silhouette_adetails"
+            android:fontFamily="sans-serif"
+            android:text="@string/add_bank_account_title"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_15" /> -->
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_edit_bank_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_white"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bank_account_no"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/user_silhouette_adetails" />
+
+        <TextView
+            android:id="@+id/tv_bank_account_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/bank_account_title"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_15" />
+
+        <TextView
+            android:id="@+id/bank_account_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_bank_account_title"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_2dp"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:text="@string/bank_account_no"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_15" />
+    </RelativeLayout>
+
+</LinearLayout>

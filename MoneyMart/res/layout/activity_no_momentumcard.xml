@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+     >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/no_mem_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_40dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/no_momentumcard_text"
+        android:textColor="@color/personal_details_label"
+        android:textSize="@dimen/font_size_14" />
+
+    <Button
+        android:id="@+id/store_locator_btn"
+        android:layout_width="@dimen/margin_250dp"
+        android:layout_height="@dimen/margin_31dp"
+        android:layout_gravity="center"
+        android:background="@color/signin_header_bg"
+        android:text="@string/navigation_menu_store_locator"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/margin_23dp" />
+
+    <TextView
+        android:id="@+id/no_mem_support_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_40dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginRight="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_120dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/no_momentumcard_support_text"
+        android:textColor="@color/personal_details_label"
+        android:textSize="@dimen/font_size_14" />
+
+    <Button
+        android:id="@+id/ok_btn"
+        android:layout_width="@dimen/margin_250dp"
+        android:layout_height="@dimen/margin_31dp"
+        android:layout_gravity="center"
+        android:background="@color/signin_header_bg"
+        android:text="@string/btn_ok"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold" 
+        android:layout_marginTop="@dimen/margin_23dp"/>
+
+</LinearLayout>
+</ScrollView>

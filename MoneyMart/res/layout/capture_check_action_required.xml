@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_capture_check_action_required"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/moneymart_login_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_action_required_custom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/action_required_custom_text"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_12" />
+
+        <RelativeLayout
+            android:id="@+id/rl_action_required_front_check_capture"
+            android:layout_width="@dimen/camera_bg_width"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_17dp"
+            android:background="@drawable/dash_box" >
+
+            <TextView
+                android:id="@+id/tv_action_required_capture_check_front"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="@dimen/margin_6dp"
+                android:drawableTop="@drawable/re_captuer"
+                android:fontFamily="sans-serif"
+                android:text="@string/recapture_check_front"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_12" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_action_required_back_check_capture"
+            android:layout_width="@dimen/camera_bg_width"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:background="@drawable/dash_box" >
+
+            <TextView
+                android:id="@+id/tv_action_required_capture_check_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_action_required_back_ok"
+                android:layout_centerInParent="true"
+                android:drawablePadding="@dimen/margin_6dp"
+                android:drawableTop="@drawable/download_check"
+                android:fontFamily="sans-serif"
+                android:text="@string/download_text"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_12" />
+
+            <TextView
+                android:id="@+id/tv_action_required_back_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/back_ok"
+                android:textColor="@color/personal_details_label"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_action_required_confirm_check_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_33dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/confirm_check_amount"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_13" />
+
+        <EditText
+            android:id="@+id/et_action_required_check_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:fontFamily="sans-serif"
+            android:hint="@string/hint_0_00"
+            android:inputType="numberDecimal"
+            android:maxLength="11"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/account_details_enter_username_data"
+            android:textSize="@dimen/font_size_20" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <TextView
+            android:id="@+id/tv_action_required_check_made_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_33dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/check_made_date"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_13" />
+
+        <EditText
+            android:id="@+id/et_action_required_check_made_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:focusable="false"
+            android:fontFamily="sans-serif"
+            android:hint="@string/date_picker_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/account_details_enter_username_data"
+            android:textSize="@dimen/font_size_20" >
+        </EditText>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <TextView
+            android:id="@+id/tv_action_required_momentum_card_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_33dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/momentum_card_text"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_13" />
+
+        <EditText
+            android:id="@+id/et_action_required_momentum_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:focusable="false"
+            android:fontFamily="sans-serif"
+            android:hint="@string/momentum_card_hint"
+            android:textColor="@color/black_color"
+            android:textColorHint="@color/account_details_enter_username_data"
+            android:textSize="@dimen/font_size_20" >
+        </EditText>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center|bottom"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_action_required_submit"
+                android:layout_width="@dimen/login_et_username_width"
+                android:layout_height="@dimen/login_text_header_height"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/margin_15dp"
+                android:layout_marginTop="@dimen/margin_30dp"
+                android:background="@color/signin_header_bg"
+                android:text="@string/submit"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_action_required_cancel"
+                android:layout_width="@dimen/login_et_username_width"
+                android:layout_height="@dimen/login_text_header_height"
+                android:layout_marginBottom="@dimen/margin_15dp"
+                android:background="@color/personal_details_data"
+                android:text="@string/cancel"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

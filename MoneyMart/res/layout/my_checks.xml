@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:id="@+id/checkstablayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_2dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tab_color_bg"
+                android:fontFamily="sans-serif-light"
+                android:scaleType="fitXY"
+                android:text="@string/my_checks_tab_all_title"
+                android:textColor="@drawable/color_state_list"
+                android:textSize="@dimen/font_size_15" />
+
+            <View
+                android:id="@+id/v_divider_all"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_5dp"
+                android:background="@color/color_action_bar" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_pending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tab_color_bg"
+                android:fontFamily="sans-serif-light"
+                android:scaleType="fitXY"
+                android:text="@string/my_checks_tab_pending_title"
+                android:textColor="@drawable/color_state_list"
+                android:textSize="@dimen/font_size_15" />
+
+            <View
+                android:id="@+id/v_divider_pending"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_5dp"
+                android:background="@color/color_white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_cashed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tab_color_bg"
+                android:fontFamily="sans-serif-light"
+                android:scaleType="fitXY"
+                android:text="@string/my_checks_tab_cashed_title"
+                android:textColor="@drawable/color_state_list"
+                android:textSize="@dimen/font_size_15" />
+
+            <View
+                android:id="@+id/v_divider_cashed"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_5dp"
+                android:background="@color/color_white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_rejected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tab_color_bg"
+                android:fontFamily="sans-serif-light"
+                android:scaleType="fitXY"
+                android:text="@string/my_checks_tab_rejected_title"
+                android:textColor="@drawable/color_state_list"
+                android:textSize="@dimen/font_size_15" />
+
+            <View
+                android:id="@+id/v_divider_rejected"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin_5dp"
+                android:background="@color/color_white" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/personal_details_divider" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_main_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/moneymart_login_bg"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/my_checks_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/tv_empty_text"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/color_white"
+                android:gravity="center"
+                android:text="@string/empty_lv_text"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/font_size_13" />
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

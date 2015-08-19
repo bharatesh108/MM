@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iv_check_amount_tutorial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/final_overlay_bg_port" >
+
+    <Button
+        android:id="@+id/btn_final_overlay"
+        android:layout_width="@dimen/login_btn_width"
+        android:layout_height="@dimen/login_btn_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_30dp"
+        android:background="@drawable/login_btn_bg"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/ok"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/font_size_14" />
+
+    <TextView
+        android:id="@+id/tv_back_check_custom_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_final_overlay"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/margin_100dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical"
+        android:lines="4"
+        android:paddingLeft="@dimen/margin_80dp"
+        android:paddingRight="@dimen/margin_80dp"
+        android:text="@string/capture_check_amount_text"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold" />
+
+</RelativeLayout>

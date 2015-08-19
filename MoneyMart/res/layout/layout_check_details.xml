@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/color_white_bg"
+    android:orientation="vertical"
+    android:id="@+id/check_details_lay" >
+
+    <TextView
+        android:id="@+id/tv_check_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/check_details"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/font_size_14"
+         />
+
+  <!--   <TextView
+        android:id="@+id/tv_maker_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_20dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/maker"
+        android:textSize="@dimen/font_size_12"
+        android:textColor="@color/personal_details_data"
+         /> -->
+    
+    <TextView
+        android:id="@+id/tv_check_details_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/check_details_amount"
+        android:textSize="@dimen/font_size_12"
+        android:textColor="@color/personal_details_data"
+         />
+    
+ <!--    <TextView
+        android:id="@+id/tv_check_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/check_number"
+        android:textSize="@dimen/font_size_12"
+        android:textColor="@color/personal_details_data"
+         />
+     -->
+  <!--    <TextView
+        android:id="@+id/tv_check_made_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/date_made"
+        android:textSize="@dimen/font_size_12"
+        android:textColor="@color/personal_details_data"
+         /> -->
+     
+ <!--     <TextView
+        android:id="@+id/tv_transaction_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/transaction_id"
+        android:textSize="@dimen/font_size_12"
+        android:textColor="@color/personal_details_data"
+         />
+      -->
+     <TextView
+        android:id="@+id/tv_funding_to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/funding_to"
+        android:textSize="@dimen/font_size_12"
+        android:textColor="@color/personal_details_data"
+         />
+     
+     <TextView
+        android:id="@+id/tv_date_submitted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/date_submitted"
+        android:textSize="@dimen/font_size_12"
+        android:textColor="@color/personal_details_data"
+         />
+     
+     <TextView
+        android:id="@+id/tv_date_transaction_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_5dp"
+        android:layout_marginBottom="@dimen/margin_20dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/date_transaction_completed"
+        android:textSize="@dimen/font_size_12"
+        android:textColor="@color/personal_details_data"
+         />
+
+</LinearLayout>

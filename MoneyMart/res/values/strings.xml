@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Money Mart</string>
+  <!--   <string name="app_name">TST Money Mart US</string> -->
+<!--     <string name="app_name">UAT Money Mart US</string> -->
+    <string name="pbar_text_loading">Loading&#8230;</string>
+    <string name="pbar_logging_in">Logging in&#8230;</string>
+    <string name="lbl_alert">Alert</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_try_again">Try Again</string>
+    <string name="btn_dont_show_again">Don\'t show again</string>
+    <string name="btn_fees_info">Back to fees info</string>
+    <string name="btn_decline">Decline fee</string>
+    <string name="btn_do_later">Do later</string>
+    <string name="btn_later">Later</string>
+    <string name="lbl_please_try_again">Please try again.</string>
+    <string name="lbl_menu_logout">Logout</string>
+    <string name="lbl_logout_confirm_msg">Are you sure you want to logout ?</string>
+    <string name="invalid_user_signup">The username you have specified is either invalid or already taken.</string>
+    <string name="invalid_user_constraint_signup">Username must be 8&#8211;20 characters in length and include one lowercase letter, one uppercase letter, and one number.</string>
+    <!-- Username must have 8 to 20 alphanumeric characters in length with no special characters.</string> -->
+    <string name="momentum_card_confirmation_details">Thank you for choosing Money Mart. In order to complete the short sign up process, you will need to already possess a Momentum Card.</string>
+    <string name="momentum_card_confirmation_question">Do you have a Momentum Card?</string>
+    <string name="content_description">Content</string>
+    <string name="opening_hours_am">a.m.</string>
+    <string name="opening_hours_pm">p.m.</string>
+<!--     <string name="account_created_text">Your account has been successfully created. \nYou can now cash your first check!</string> -->    
+<string name="account_created_text">Your account has been successfully created. \nYou can now cash your first check!\n\nIn addition to being able to cash checks to your Momentum Card, you can also choose to cash checks to a bank account.\n\n\nAdd a bank account now?</string>
+    <string name="store_locator">Store Locator</string>
+    <string name="momeymart_app_version">V%1$s</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_money_mart">Money Mart</string>
+    <string name="navigation_check_cashing">Check Cashing</string>
+    <string name="navigation_my_account">My Account</string>
+    <string name="navigation_payday_loans">Visit</string>
+    <string name="navigation_momentum_card_drawer">Momentum Card</string>
+    <string name="navigation_apply">Apply</string>
+    <string name="navigation_add_account">Add Bank Account</string>
+    <string name="navigation_other">Other</string>
+    <string name="navigation_menu_cash_a_check">Cash a Check</string>
+    <string name="navigation_menu_my_checks">Check Status</string>
+    <string name="navigation_menu_card_services">Card Details</string>
+    <string name="navigation_menu_personal_details">Personal Details</string>
+    <string name="navigation_menu_account_details">Account Details</string>
+    <string name="navigation_menu_contact_us">Contact Us</string>
+    <string name="navigation_menu_contact_moneymart">Contact Money Mart</string>
+    <string name="navigation_menu_store_locator">Store Locator</string>
+    <string name="navigation_menu_faq">FAQ\'s</string>
+    <string name="navigation_menu_logout">Logout</string>
+    <string name="navigation_menu_change_psw">Change Password</string>
+    <string name="navigation_menu_update_username">Update Username</string>
+    <string name="navigation_menu_enter_username">Enter Your Username</string>
+    <string name="navigation_menu_faq_question">FAQ\'s</string>
+    <string name="navigation_menu_set_new_password">Set a New Password</string>
+    <string name="navigation_menu_having_trouble">Having Trouble?</string>
+    <string name="navigation_choose_username_password">Choose a Username and Password</string>
+    <string name="navigation_momentum_card">Momentum Card?</string>
+    <string name="navigation_agree_to_fees">Agree to Fees</string>
+    <string name="navigation_check">Check</string>
+    <string name="navigation_account_exists">Account Already Exists</string>
+    <string name="navigation_account_created">Account Created</string>
+    <string name="navigation_account_no_momntcard">You Do Not Have a Momentum card</string>
+    <string name="navigation_account_invalid_username">Invalid Username</string>
+    <string name="navigation_menu_privacy_policy">Privacy Policy</string>
+    <string name="navigation_menu_cash_a_check_screen_title">Capture Check</string>
+     <string name="navigation_visit_site">Money Mart</string>
+    
+    
+    <!-- Money Mart Canada -->
+    <string name="navigation_cash_advance">Cash Advance</string>
+    <string name="navigation_learn_more">Learn More</string>
+    <string name="navigation_titanium_card">Titanium+® MasterCard®</string>
+    <string name="learn_more_title">Check Cashing via the mobile app is not yet available. \n Please visit one of our stores to take advantage of this service!</string>
+    
+    <!-- <string name="navigation_menu_cash_a_check">Cash a Check</string> -->
+    <string name="navigation_loan_title">Money Mart Loans</string>
+    <!-- Set New Password Screen -->
+    <string name="enter_username">Please enter your username.</string>
+    <string name="enter_username_customtext">In order to reset your password, please enter your username so that we can find your account</string>
+    <string name="update_forgot_username_custom_text">If you do not know your username, or you are having trouble, please contact customer services.</string>
+    <string name="username">Username</string>
+    <string name="submit">Submit</string>
+    <string name="moneymart_content_description">Money Mart</string>
+    <string name="password">Password</string>
+    <string name="forgot_username_password">Forgot Username or Password?</string>
+    <string name="login">Login</string>
+    <string name="create_new">Create a new account</string>
+    <string name="location">Location</string>
+    <string name="support">Support</string>
+    <string name="found_account">We\'ve found your account</string>
+    <string name="security_questions">Please answer the following security question:</string>
+    <string name="security_questions_one">Where does the cat usually sit?</string>
+    <string name="answer">Answer</string>
+    <string name="new_password"><![CDATA[ Enter a new password <b><font color=#FF4338>*</b> ]]></string>
+    <!-- <string name="new_password_header_text">All fields marked with "*" are mandatory</string> -->
+    <string name="new_password_header_text"><![CDATA[ All fields marked with \'<b><font color=#FF4338>*</b>\' are mandatory]]></string>
+    <string name="new_password_title_text"><![CDATA[ (all fields marked with \'<b><font color=#FF4338>*</b>\' are mandatory)]]></string>
+    <string name="new_password_text">New password</string>
+    <string name="confirm_password"><![CDATA[ Confirm the password <b><font color=#FF4338>*</b>]]></string>
+    <string name="confirm_hint_password">Confirm password</string>
+    <string name="day_format">Monday to Sunday</string>
+    <string name="change_password_success_msg">Your password has been successfully changed.</string>
+
+    <!-- Personal Details Screen -->
+    <string name="first_name">First Name</string>
+    <string name="second_name">Last Name</string>
+    <string name="house_number">House Number</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="county">County</string>
+    <string name="state">State</string>
+    <string name="postal">Zip/Postal Code</string>
+    <string name="Country">Country</string>
+    <string name="phone">Home Phone</string>
+    <string name="mobile">Cell Phone</string>
+
+    <!-- Account Details Screen -->
+    <string name="update_password">Update Password</string>
+    <string name="update_username">Update Username</string>
+    <string name="add_bank_account_title">Add Bank Account</string>
+   <!--  <string name="bank_account_number_title">Bank Account \nAccount no : %1$s</string> -->
+    <string name="bank_account_number_title"><![CDATA[<font color=#999999>Bank Account</font><br />Account no : %1$s]]></string>
+    <string name="bank_title">Bank</string>
+    <string name="bank_account_title">Bank Account</string>
+    <string name="bank_account_no">Account no: %1$s</string>
+    <string name="button_add_account_text">Add Account</string>
+    <string name="remove_account_success_msg">Remove this bank account?</string>
+    <string name="menu_edit_title">Edit</string>
+    <string name="menu_delete_title">Delete</string>
+    <string name="menu_add_title">Add</string>
+
+    <!-- Add Bank Account Screen -->
+    <string name="account_type_title">Account Type</string>
+    <string name="account_no_title">Account Number</string>
+    <string name="routing_no_title">Routing Number</string>
+    <string name="confirm_account_no_title">Confirm Account Number</string>
+    <string name="confirm_routing_no_title">Confirm Routing Number</string>
+    <string name="savings_account_type_title">Savings</string>
+    <string name="checking_account_type_title">Checking</string>
+    <string name="account_type_hint">Select</string>
+    <string name="edit_text_hint">\?</string>
+    <string name="add_bank_account_success_msg">Account Added</string>
+    <string name="add_bank_account_error_msg">A problem was encountered while adding this account. \nWould you like to try again?</string>
+
+     <!-- Account Type Spinner Items -->
+    <string-array name="account_type_items">
+        <item>@string/savings_account_type_title</item>
+        <item>@string/checking_account_type_title</item>
+    </string-array>
+    
+    <!-- Faq Screen -->
+    <string name="faq_tab_general">General</string>
+    <string name="faq_tab_cc">Check Cashing</string>
+    <string name="faq_tab_mc">Momentum Card</string>
+
+    <!-- Update Username Screen -->
+    <string name="update_username_custom_text">To update your username, please contact customer services.</string>
+    <string name="phone_content">To call</string>
+    <string name="mail_content">To mail</string>
+    <string name="security_question_choose">Choose a Security Question%1$s</string>
+    <string name="security_question_choose_text">Please remember, your security question and answer will be needed to reset your password.</string>
+
+    <!-- Cash a Check Screen -->
+    <string name="capture_check_front">Capture Check Front</string>
+    <string name="capture_check_back">Capture Check Back</string>
+    <string name="capture_check_void">Capture Check Void</string>
+    <string name="confirm_check_amount">Confirm Check Amount</string>
+    <string name="check_made_date">Enter check made date</string>
+    <string name="momentum_card_text">Depositing to</string>
+    <string name="date_picker_hint">MM/DD/YYYY</string>
+    <string name="check_cashing_date_picker_hint">MM/DD/YYYY</string>
+    <string name="momentum_card_hint">Momentum Card ****1234</string>
+    <string name="btn_cash_check">Cash Check</string>
+    <string name="fill_all_fields_msg">Please fill all fields</string>
+    <string name="capture_all_images_msg">Please make sure you captured the front check and back check images.</string>
+
+    <!-- Having Trouble Screen -->
+    <string name="having_trouble_custom_text">If you are having any trouble using this app, please contact us here:</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>@string/navigation_menu_cash_a_check</item>
+        <item>@string/navigation_menu_my_checks</item>
+        <item>@string/navigation_menu_card_services</item>
+        <item>@string/navigation_menu_personal_details</item>
+        <item>@string/navigation_menu_account_details</item>
+        <item>@string/navigation_menu_contact_us</item>
+        <item>@string/navigation_menu_store_locator</item>
+        <item>@string/navigation_menu_faq</item>
+        <item>@string/navigation_menu_logout</item>
+        <item>@string/navigation_apply</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/cash_acheck</item>
+        <item>@drawable/my_checks</item>
+        <item>@drawable/funding_accounts</item>
+        <item>@drawable/p_details</item>
+        <item>@drawable/a_details</item>
+        <item>@drawable/contact_us</item>
+        <item>@drawable/map_locator</item>
+        <item>@drawable/faq</item>
+        <item>@drawable/logout</item>
+    </array>
+
+    <!-- Activity Title -->
+    <string name="lbl_terms_conditions">Terms and Conditions</string>
+    <!-- Login Screen -->
+    <string name="lbl_login_header_text">Please login</string>
+
+    <!-- Terms and conditions -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="terms_conditions_message">You must agree to the terms and conditions before you can use this app.</string>
+    <string name="tc_bottom_text">I have read and accepted the terms and conditions.</string>
+    <string name="security_questions_text">Security Questions</string>
+
+    <!-- Error message -->
+    <string name="error_no_answer">Please enter your security answer.</string>
+    <string name="error_username_updated_msg">Username must be 8&#8211;20 characters in length.</string>
+    <string name="error_reset_password">Password must be 8&#8211;20 characters in length and include one lowercase letter, one uppercase letter, one number and one special character.</string>
+    <string name="error_reset_confirm_password">Confirm password must be 8&#8211;20 characters in length and include one lowercase letter, one uppercase letter, one number and one special character.</string>
+    <string name="error_reset_password_match">Passwords must match.</string>
+    <string name="reset_password_success">Your password has been successfully reset. Please login.</string>
+    <string name="error_reset_password_server">We are unable to reset your password. Please try again. If the problem persists, please contact customer services.</string>
+    <string name="error_server_forgot_password">We have not been able to find your account. Please make sure you have entered correct username and try again.</string>
+    <string name="error_Login_api">The username and password you have entered are either unrecognized or are incorrect. Please try again. If problem persists, contact customer service.</string>
+    <string name="error_password_match">Password must match.</string>
+    <string name="error_agree_fees">We cannot complete your transaction without acceptance of the transaction fee. If you choose to decline, your transaction will be canceled. How would you like to proceed?</string>
+    <string name="error_logout_upload_in_progress">A check upload is in progress. If you logout before this completes, the upload will be stopped. Are you sure you want to log out?</string>
+    <string name="error_logout_failed_check_exists">One or more of your checks failed to upload. You can re-submit them before you log out, or you willl need to start again next time.  Are you sure you want to log out?</string>
+    <string name="error_void_chk">Please capture void check image.</string>
+    <string name="error_front_chk">Please capture the front check image.</string>
+    <string name="error_back_chk">Please capture the back check image.</string>
+    <string name="error_chk_data">Please enter valid data.</string>
+    <string name="error_front_back_chk">Please capture front and back check image.</string>
+    <string name="error_psw_empty">Please enter a new password.</string>
+    <string name="error_confirm_psw_empty">Please confirm the password.</string>
+    <string name="error_confirm_void_chk">You must upload a voided check image to complete check cashing process.</string>
+    <!-- My Checks Status -->
+    <string name="queued_status_msg">Queued</string>
+    <string name="uploading_status_msg">Uploading</string>
+    <string name="uploading_failed_status_msg">Upload Failed</string>
+    <string name="action_required_status_msg">Action Required</string>
+    <string name="review_pending_status_msg">Review Pending</string>
+    <string name="cashed_status_msg">Cashed</string>
+    <string name="rejected_status_msg">Rejected</string>
+    <string name="my_checks_tab_all_title">All</string>
+    <string name="my_checks_tab_pending_title">Pending</string>
+    <string name="my_checks_tab_cashed_title">Cashed</string>
+    <string name="my_checks_tab_rejected_title">Rejected</string>
+
+    <!-- Sign Up -->
+    <string name="choose_username_mandatory">All fields marked with \'%1$s\' are mandatory.</string>
+    <string name="choose_username_text">Choose a username %1$s</string>
+    <string name="choose_username_message_updated">(Username must be 8&#8211;20 characters in length)</string>
+    <!-- (Username should be 8 to 20 characters in length)</string> -->
+    <string name="choose_specify_pwd_text">Specify a password %1$s</string>
+    <string name="choose_specify_pwd_message">(Passwords must be 8&#8211;20 characters in length and include one lowercase letter, one uppercase letter, one number and one special character)</string>
+    <!-- (Password should be 8 to 20 characters in length)</string> -->
+    <string name="confirm_pwd_message">Confirm your password %1$s</string>
+    <string name="security_question_message">Please choose a security question and provide an answer that only you will know.</string>
+    <string name="select_question_hint">Select question</string>
+    <string name="answer_text">Answer %1$s</string>
+    <string name="no_momentumcard_text">Unfortunately, because you do not currently possess a Momentum Card, you will be unable to complete the sign up process.\n\n\nYou can obtain a Momentum Card by visiting any of our stores.</string>
+    <string name="do_not_posses_momentumcard_text">Unfortunately, we were unable to confirm that you are a current Momentum Card holder. \n You will be unable to complete with the sign up process. You can obtain a Momentum Card by visiting any of our stores.</string>
+    <string name="no_momentumcard_support_text">We will be adding support for customers without Momentum Card soon.</string>
+    <string name="contact_title">Customer Service %1$s Technical Support</string>
+    <string name="choose_security_question">Please select security question.</string>
+    <!-- Sign Up Personal Details -->
+    <string name="user_details_header">Please enter your personal details</string>
+    <string name="user_details_text">(All fields marked with \'%1$s\' are mandatory)</string>
+    <string name="user_first_name_message">First Name %1$s</string>
+    <string name="user_first_name_hint">First Name</string>
+    <string name="user_last_name_message">Last Name %1$s</string>
+    <string name="user_last_name_hint">Last Name</string>
+    <string name="user_dob_message">Date of Birth %1$s</string>
+    <string name="user_dob_hint">DOB</string>
+    <string name="user_ssn_message">Social Security Number %1$s</string>
+    <string name="user_ssn_hint">SSN</string>
+    <string name="user_house_number_message">House Number</string>
+    <string name="user_house_number_hint">House Number</string>
+    <string name="user_street_message">Street</string>
+    <string name="user_street_hint">Street</string>
+    <string name="user_city_message">City</string>
+    <string name="user_city_hint">City</string>
+    <string name="user_state_message">State</string>
+    <string name="user_state_hint">Select</string>
+    <string name="user_zip_postal_message">Zip/Postal Code</string>
+    <string name="user_zip_postal_hint">Zip/Postal Code</string>
+    <string name="user_country_message">Country</string>
+    <string name="user_country_hint">Country</string>
+    <string name="user_home_phone_message">Home Phone</string>
+    <string name="user_home_phone_hint">Home Phone</string>
+    <string name="user_cell_phone_message">Cell Phone</string>
+    <string name="signup_already_exits_custom_text">We have detected that you already have a Money Mart account. Please login with your existing credentials.</string>
+    <string name="signup_forgot_username_password_custom_text">If you have forgotten your username or password, you can regain access to your account here.</string>
+    <string name="sign_in">Login</string>
+    <string name="forgotten_username_password">Forgotten username or password?</string>
+    <string name="do_not_posses_need_help_custom_text">If you feel that this information is not correct, please contact customer service.</string>
+    <string name="email_id">Email Address %1$s</string>
+    <string name="email_id_title">Email Address</string>
+
+    <!-- Card Services -->
+    <string name="transaction_history">Transaction History</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="balance_details">Balance: %1$s</string>
+
+    <!-- Card Details -->
+    <string name="check_details">Check Details</string>
+    <string name="check_details_amount">Amount: %1$s</string>
+    <string name="card_holder_agreement">MasterCard Card holder agreement</string>
+    <string name="ptc_privacy_policy">PTC Privacy Policy</string>
+    <string name="tittanium_card_policy_message">The Titanium+ Prepaid MasterCard is issued by Peoples Trust Company pursuant to licence by MasterCard International Incorporated. Nextwave Titanium+® is a registered service mark of Nextwave Card Corp. MasterCard® is a registered trademark of MasterCard International Incorporated. Money Mart® is a registered service mark of National Money Mart Company.\n\n © 2015 National Money Mart Company. All Rights Reserved.</string>
+    <string name="tittanium_card_policy_title">Titanium+® Prepaid MasterCard®</string>
+<!--     <string name="funding_to">Funding to Card number: %1$s</string> -->
+    <string name="funding_to">Funding to : %1$s</string>
+    <string name="date_submitted">Date submitted: %1$s</string>
+    <string name="date_transaction_completed">Date completed: %1$s</string>
+    <string name="check_header_text">Your check was cashed on %1$s</string>
+    <string name="check_message_text">Please refer to your Momentum Card holder agreement for any additional fees associated with usage of your card, including loading funds on your card.</string>
+    <string name="agree">Agree</string>
+    <string name="check_uploading">Check Uploading</string>
+    <string name="review_pending_custom_text">We are currently reviewing your check images. Once your images have been accepted, you will be presented with a detailed transaction summary for your review and acceptance.</string>
+    <string name="download_text">Click here to download</string>
+    <string name="front_ok">Front OK</string>
+    <string name="back_ok">Back OK</string>
+    <string name="void_ok">Void OK</string>
+    <string name="action_required_custom_text">There was a problem with one of the images you have submitted. Please resubmit them.</string>
+    <string name="recapture_check_front">Re-capture Check Front</string>
+    <string name="void_check_capture">Capture Check Voided Front</string>
+    <string name="recapture_check_back">Re-capture Check Back</string>
+    <string name="recapture_void_check_front">Re-capture Check Voided Front</string>
+
+    <!-- Tutorial -->
+    <!--
+         <string name="capture_front_check_text">1. Place the check on a solid color, well little non reflective surface.\n
+         									2. Align the top of the check with the guide and press the camera icon when ready.\n
+         									3. Clicking on capture check front camera icon will enable you to take a photo of the front of your check.</string>
+    -->
+
+    <string name="capture_front_check_text_1">Place the check on a solid color, well lit non reflective surface.</string>
+    <string name="capture_front_check_text_2">Align the top of the check with the guide and press the camera icon when ready.</string>
+    <string name="capture_front_check_text_3">Clicking on capture check front camera icon will enable you to take a photo of the front of your check.</string>
+    <string name="capture_front_check_text_bullet_1">1. </string>
+    <string name="capture_front_check_text_bullet_2">2. </string>
+    <string name="capture_front_check_text_bullet_3">3. </string>
+    <!--
+         <string name="capture_back_check_text">1. Turn your check over so that the back is showing and place your driving license in the center.\n
+         									2. Make sure your driving license can be clearly seen and take a photo.\n </string>
+    -->
+
+    <string name="capture_back_check_text_1">Turn your check over so that the back is showing and place your driving license in the center.</string>
+ 	<string name="capture_back_check_text_2">Make sure your driving license can be clearly seen and take a photo.</string>
+    <string name="capture_check_amount_text">Confirm the amount that the check is made out for\n
+         										and the date that the check is made out for</string>
+
+    <!-- PayDay Loans -->
+    <string name="payday_loans_custom_text">Loans are coming soon to the Mobile App!</string>
+    <string name="payday_loans_link">Please click here for more payday loan information or to Apply for a Loan on our NEW Mobile Website!</string>
+    <string name="payday_loans_note"> (Note: Loan availability varies by state)</string>
+    <string name="add_bank_note">The ability to fund to your Bank Account is COMING SOON!</string>
+    <string name="empty_lv_text">You currently have no checks to display</string>
+    <string name="custom_link_pre">Please</string>
+    <string name="custom_link_end">click here</string>
+    <string name="custom_link_end_text">for Loan information, to Apply in Advance, or to Apply for a Loan on our NEW Mobile Website!</string>
+        <!-- for more payday loan information, to Apply in Advance, or to Apply for a Loan on our NEW Mobile Website!</string> -->
+
+    <!-- Validation -->
+    <!-- Username should be 8 to 20 characters in length.</string> -->
+    <!-- Spinner States in one single line required for money mart canada project creation-->
+   
+        <string-array name="spinner_state_list"> <item> Alabama </item><item> Alaska </item><item> Arizona </item><item>Arkansas </item><item> California </item><item> Colorado </item> <item> Connecticut </item> <item> Delaware </item> <item> Florida </item> <item> Georgia </item> <item> Hawaii </item> <item> Idaho </item> <item> Illinois </item> <item> Indiana </item> <item> Iowa </item> <item> Kansas </item> <item> Kentucky </item> <item> Louisiana </item> <item> Maine </item> <item> Maryland </item> <item> Massachusetts </item> <item> Michigan </item> <item> Minnesota </item> <item> Mississippi </item> <item> Missouri </item> <item> Montana </item> <item> Nebraska </item> <item> Nevada </item> <item> New Hampshire </item> <item> New Jersey </item> <item> New Mexico </item> <item> New York </item> <item> North Carolina </item> <item> North Dakota </item> <item> Ohio </item> <item> Oklahoma </item> <item> Oregon </item> <item> Pennsylvania </item> <item> Rhode Island </item> <item> South Carolina </item> <item> South Dakota </item> <item> Tennessee </item> <item> Texas </item> <item> Utah </item> <item> Vermont </item> <item> Virginia </item> <item> Washington </item> <item> West Virginia </item> <item> Wisconsin </item> <item> Wyoming </item></string-array>
+
+
+    <string name="filter_alphanumeric">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="filter_numeric">0123456789</string>
+    <string name="mandatory_filed_error">Required fields are marked with an asterisk*. \n Please review the information you have entered, and try again.</string>
+    <string name="email_error">Please enter a valid email address.</string>
+    <string name="fees_text">You will be charged $%1$s to cash this check. \n$%2$s will be funded to %3$s</string>
+    <string name="agree_btn">Agree</string>
+    <string name="rejected_chk_title">Unfortunately, we are unable to approve your check at this time.\nPlease contact customer service for more information.</string>
+    <string name="cashed_chk_title">Your check was cashed on %1$S</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="time_pst">%1$s PST</string>
+    <string name="signup_error_ssn">Please enter a valid SSN.</string>
+    <string name="signup_error_phone">Please enter a valid phone number.</string>
+    <string name="signup_error_postalcode">Please enter a valid zip/postal code.</string>
+    <!-- Error Handling -->
+    <string name="error_401">Login failed. Please try again. If the problem persists, contact customer service.</string>
+    <string name="error_400">Looks like something went wrong, please try again. If problem persists, contact customer service.</string>
+    <string name="error_403_put_resetpassword">Please enter a valid security answer.</string>
+    <string name="error_generic">An error has been detected on the server. Please try again.</string>
+    <string name="error_408_request_timeout">There was an error communicating with the server. Please try again.</string>
+    <string name="error_network">There is a problem with the network. \n Please check your network connection and try again.</string>
+    <string name="enter_login_password">Please enter your password.</string>
+    <!-- Analytics String -->
+
+    <!-- Category -->
+    <string name="category_contact_us">category_contact_us</string>
+    <string name="category_card_services">category_card_services</string>
+    <string name="category_loan_services">category_loan_services</string>
+    <string name="category_user_registration">category_user_registration</string>
+
+    <!-- Action -->
+    <string name="event_contactus_quickdial_cusomer_care">event_contactus_quickdial_cusomer_care</string>
+    <string name="event_contactus_visit_dfc_website">event_contactus_visit_dfc_website</string>
+    <string name="event_contactus_email_customer_care">event_contactus_email_customer_care</string>
+    <string name="event_contactus_visit_storelocator">event_contactus_visit_storelocator</string>
+    <string name="event_card_details">event_card_details</string>
+    <string name="event_card_transactions">event_card_transactions</string>
+    <string name="event_apply_laons">event_apply_loan</string>
+    <string name="event_user_registration">event_user_registration</string>
+  <!--   <string name="personal_details_contact_us"><![CDATA[ Please <b><font color=#11AEE2>Contact us</b>  if you would like to update any personal details.]]></string> -->
+<!-- <![CDATA[ Please <b><font color=#11AEE2>Contact us</b>  if you would like to update any personal details.]]></string> -->
+ <string name="personal_details_contact_us"><![CDATA[ Please <b><font color=#11AEE2>Contact us</b> if you would like to update any personal details.]]></string>
+ 
+ <string name="email_client">Choose Email Client</string>
+ <string name="capture_void_check_text_1">After agreeing to the feees for cashing this chack the final step is to take a photo of the front your check with "VOID" written across the front.</string>
+<string name="error_account_number_limit">Please enter a valid Account Number.</string>
+<string name="error_account_number_match">Account numbers must match.</string>
+<string name="error_routing_number_match">Routing numbers must match.</string>
+<string name="error_routing_number_limit">Please enter a valid Routing Number.</string>
+<string name="termsandcond_dialog_title">Permissions</string>
+<string name="bank_account_contact_msg"><![CDATA[ For your security, please <b><font color=#11AEE2>Contact Us</b> to make any changes to the banking information displayed above.]]></string>
+	
+	<string name="hint_0_00">$0.00</string>
+	<string name="lbl_all">All</string>
+	<string name="lbl_pending">Pending</string>
+	<string name="lbl_cashed">Cashed</string>
+	<string name="lbl_rejected">Rejected</string>
+	<string name="lbl_question">Question</string>
+</resources>

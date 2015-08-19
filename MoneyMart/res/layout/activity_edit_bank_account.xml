@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_edit_new_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:text="@string/account_no_title"
+        android:textColor="@color/username_text"
+        android:textSize="@dimen/font_size_12" />
+
+    <EditText
+        android:id="@+id/et_edit_account_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_15dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:background="@color/color_transparent"
+        android:fontFamily="sans-serif"
+        android:inputType="numberDecimal"
+        android:maxLength="11"
+        android:textColor="@color/black_color"
+        android:textColorHint="@color/account_details_enter_username_data"
+        android:textSize="@dimen/font_size_20" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/tv_edit_routing_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:text="@string/routing_no_title"
+        android:textColor="@color/username_text"
+        android:textSize="@dimen/font_size_12" />
+
+    <EditText
+        android:id="@+id/et_edit_routing_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_15dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:background="@color/color_transparent"
+        android:fontFamily="sans-serif"
+        android:inputType="numberDecimal"
+        android:maxLength="11"
+        android:textColor="@color/black_color"
+        android:textColorHint="@color/account_details_enter_username_data"
+        android:textSize="@dimen/font_size_20" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:background="@android:color/darker_gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="@dimen/font_size_38" >
+
+        <Button
+            android:id="@+id/btn_save_account"
+            android:layout_width="@dimen/login_et_username_width"
+            android:layout_height="@dimen/login_text_header_height"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/signin_header_bg"
+            android:text="@string/btn_save"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

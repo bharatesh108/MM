@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miteksystems.misnap"
+    android:versionCode="@string/misnap_versionCode"
+    android:versionName="@string/misnap_versionName" >
+
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+       <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash"/>
+    
+    <application
+        android:label="@string/app_name">
+    </application>
+
+</manifest>

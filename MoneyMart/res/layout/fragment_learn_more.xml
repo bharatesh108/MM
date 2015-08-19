@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+            android:id="@+id/tv_learn_more_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_40dp"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:visibility="visible"
+            android:text="@string/learn_more_title"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_16" />
+    
+     <TextView
+            android:id="@+id/tv_store_locator_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:linksClickable="true"
+            android:layout_marginEnd="@dimen/margin_40dp"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_35dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:visibility="visible"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_13" />
+     
+</LinearLayout>

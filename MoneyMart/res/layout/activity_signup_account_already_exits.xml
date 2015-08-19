@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/signup_already_exits_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_40dp"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/signup_already_exits_custom_text"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_14" />
+
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="@dimen/margin_250dp"
+            android:layout_height="@dimen/margin_31dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_23dp"
+            android:background="@color/signin_header_bg"
+            android:text="@string/sign_in"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/no_mem_support_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_40dp"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/signup_forgot_username_password_custom_text"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_14" />
+
+        <Button
+            android:id="@+id/forgot_username_psw_btn"
+            android:layout_width="@dimen/margin_250dp"
+            android:layout_height="@dimen/margin_35dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_23dp"
+            android:background="@color/signin_header_bg"
+            android:text="@string/forgotten_username_password"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_signup_need_help_customtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_40dp"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/update_forgot_username_custom_text"
+            android:textColor="@color/personal_details_data"
+            android:textSize="@dimen/font_size_13" />
+
+        <include
+            android:id="@+id/need_help_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_40dp"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_20dp"
+            layout="@layout/need_help_layout" />
+    </LinearLayout>
+
+</ScrollView>

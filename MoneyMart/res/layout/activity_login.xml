@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/moneymart_login_bg_style"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/icon_header_height"
+        android:background="@color/icon_header_bg" >
+
+        <ImageView
+            android:id="@+id/home_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/moneymart_content_description"
+            android:src="@drawable/money_mart_logo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_signin_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_header_height"
+        android:layout_below="@+id/rl_header" >
+
+        <TextView
+            android:id="@+id/tv_signin_header"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_text_header_height"
+            android:layout_alignParentTop="true"
+            android:background="@color/signin_header_bg"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/lbl_login_header_text"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_18" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_signin_header"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-2dip"
+            android:contentDescription="@string/moneymart_content_description"
+            android:src="@drawable/down_arrow" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_signin_header" >
+
+        <RelativeLayout
+            android:id="@+id/login_credentials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_header_bottom_margin" >
+
+            <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="@dimen/login_et_username_width"
+                android:layout_height="@dimen/login_text_header_height"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/login_username_password_bg"
+                android:cursorVisible="true"
+                android:drawableLeft="@drawable/user_silhouette"
+                android:drawablePadding="@dimen/login_et_drawable_padding"
+                android:drawableStart="@drawable/user_silhouette"
+                android:ellipsize="start"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:hint="@string/username"
+                android:imeOptions="actionNext"
+                android:inputType="textFilter"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/margin_10dp"
+                android:singleLine="true"
+                android:textColor="@color/black_color"
+                android:textColorHighlight="@color/et_text_color"
+                android:textSize="@dimen/login_et_text_size" />
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="@dimen/login_et_username_width"
+                android:layout_height="@dimen/login_text_header_height"
+                android:layout_below="@+id/et_login_username"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_15dp"
+                android:background="@drawable/login_username_password_bg"
+                android:cursorVisible="false"
+                android:drawableLeft="@drawable/locked_padlock"
+                android:drawablePadding="@dimen/login_et_drawable_padding"
+                android:drawableStart="@drawable/locked_padlock"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/margin_10dp"
+                android:singleLine="true"
+                android:textColor="@color/black_color"
+                android:textColorHighlight="@color/et_text_color"
+                android:textSize="@dimen/login_et_text_size" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="@dimen/login_btn_width"
+                android:layout_height="@dimen/login_btn_height"
+                android:layout_below="@+id/et_login_password"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:background="@drawable/login_btn_bg"
+                android:fontFamily="sans-serif"
+                android:text="@string/login"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_14" />
+
+            <TextView
+                android:id="@+id/tv_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_login"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="@string/forgot_username_password"
+                android:textColor="@color/moneymart_login_forgot_password_text"
+                android:textSize="@dimen/login_forgot_text_size" />
+
+            <LinearLayout
+                android:id="@+id/ll_need_help"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_forgot_password"
+                android:layout_marginTop="@dimen/margin_70dp"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btn_create_new"
+                    android:layout_width="@dimen/login_et_username_width"
+                    android:layout_height="@dimen/login_text_header_height"
+                    android:layout_gravity="center"
+                    android:background="@drawable/create_new_btn_bg"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/create_new"
+                    android:textColor="@color/color_white"
+                    android:textSize="@dimen/font_size_14" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <FrameLayout
+                        android:layout_width="@dimen/margin_115dp"
+                        android:layout_height="@dimen/login_text_header_height"
+                        android:layout_marginTop="11dp"
+                        android:background="@drawable/location_btn_bg" >
+
+                        <Button
+                            android:id="@+id/btn_location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:drawableLeft="@drawable/location"
+                            android:drawablePadding="5dp"
+                            android:drawableStart="@drawable/location"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:minHeight="0dp"
+                            android:minWidth="0dp"
+                            android:text="@string/location"
+                            android:textColor="@color/support"
+                            android:textSize="@dimen/font_size_14" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="@dimen/margin_115dp"
+                        android:layout_height="@dimen/login_text_header_height"
+                        android:layout_marginTop="11dp"
+                        android:background="@drawable/location_btn_bg"
+                        android:layout_marginLeft="@dimen/margin_14dp" >
+
+                        <Button
+                            android:id="@+id/btn_need_help"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@null"
+                            android:drawableLeft="@drawable/customer_support"
+                            android:drawablePadding="5dp"
+                            android:drawableStart="@drawable/customer_support"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:minHeight="0dp"
+                            android:minWidth="0dp"
+                            android:text="@string/support"
+                            android:textColor="@color/support"
+                            android:textSize="@dimen/font_size_14" />
+                    </FrameLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy_title"
+                android:layout_below="@+id/ll_need_help"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/margin_3dp"
+                android:textColor="@color/moneymart_login_forgot_password_text" 
+                android:fontFamily="sans-serif"
+                android:textSize="@dimen/login_et_text_size"/>
+            
+            <TextView
+                android:id="@+id/tv_app_version"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_privacy_policy"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_centerInParent="true"
+                android:textColor="@android:color/darker_gray" 
+                android:fontFamily="sans-serif"
+                android:textSize="@dimen/login_et_text_size"/>
+            
+            <!-- <TextView
+                android:id="@+id/text_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UAT"
+                android:layout_below="@+id/tv_app_version"
+                android:layout_marginTop="11dp"
+                android:textColor="@android:color/secondary_text_light_nodisable" 
+                android:fontFamily="sans-serif"
+                android:textSize="@dimen/login_et_text_size"/> -->
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

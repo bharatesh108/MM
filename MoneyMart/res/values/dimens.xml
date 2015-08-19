@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fort size -->
+    <dimen name="font_size_9">9sp</dimen>
+    <dimen name="font_size_11">11sp</dimen>
+    <dimen name="font_size_12">12sp</dimen>
+    <dimen name="font_size_13">13sp</dimen>
+    <dimen name="font_size_14">14sp</dimen>
+    <dimen name="font_size_15">15sp</dimen>
+    <dimen name="font_size_16">16sp</dimen>
+    <dimen name="font_size_17">17sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_38">38sp</dimen>
+    <dimen name="font_size_45">45sp</dimen>
+
+    <!-- Margins -->
+    <dimen name="margin_1dp">1dp</dimen>
+    <dimen name="margin_2dp">2dp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_6dp">6dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_13dp">13dp</dimen>
+    <dimen name="margin_14dp">14dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_17dp">17dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_22dp">22dp</dimen>
+    <dimen name="margin_23dp">23dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_31dp">31dp</dimen>
+    <dimen name="margin_32dp">32dp</dimen>
+    <dimen name="margin_33dp">33dp</dimen>
+    <dimen name="margin_35dp">35dp</dimen>
+    <dimen name="margin_38dp">38dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_41dp">41dp</dimen>
+    <dimen name="margin_44dp">44dp</dimen>
+    <dimen name="margin_45dp">45dp</dimen>
+    <dimen name="margin_48dp">48dp</dimen>
+    <dimen name="margin_50dp">50dp</dimen>
+    <dimen name="margin_55dp">55dp</dimen>
+    <dimen name="margin_57dp">57dp</dimen>
+    <dimen name="margin_70dp">70dp</dimen>
+    <dimen name="margin_75dp">75dp</dimen>
+    <dimen name="margin_80dp">80dp</dimen>
+    <dimen name="margin_100dp">100dp</dimen>
+    <dimen name="margin_113dp">113dp</dimen>
+    <dimen name="margin_115dp">115dp</dimen>
+    <dimen name="margin_120dp">120dp</dimen>
+    <dimen name="margin_140dp">140dp</dimen>
+    <dimen name="margin_200dp">200dp</dimen>
+    <dimen name="margin_250dp">250dp</dimen>
+    <dimen name="margin_300dp">300dp</dimen>
+   
+
+    <!-- Login Screen -->
+    <dimen name="icon_header_height">105dp</dimen>
+    <dimen name="login_header_height">42dp</dimen>
+    <dimen name="login_text_header_height">35dp</dimen>
+    <dimen name="login_header_bottom_margin">23dp</dimen>
+    <dimen name="login_et_username_width">243dp</dimen>
+    <dimen name="login_btn_height">33dp</dimen>
+    <dimen name="login_btn_width">244dp</dimen>
+    <dimen name="login_et_text_size">13sp</dimen>
+    <dimen name="login_et_drawable_padding">-40dp</dimen>
+    <dimen name="login_forgot_text_size">10sp</dimen>
+    
+    <!-- Cash a Check -->
+    <dimen name="camera_bg_width">240dp</dimen>
+      
+    <!-- Terms and conditions -->
+    <dimen name="tc_bottom_layout_height">134dp</dimen>
+
+
+</resources>

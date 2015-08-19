@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/moneymart_login_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_choose_username_mandatory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/choose_username_mandatory"
+            android:textColor="@color/personal_details_data"
+            android:textSize="@dimen/font_size_12"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_choose_username_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_18dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/choose_username_text"
+            android:textColor="@color/account_details_enter_username_label"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_choose_username_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/choose_username_message_updated"
+            android:textColor="@color/message_text_color"
+            android:textSize="@dimen/font_size_9"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:fontFamily="sans-serif"
+            android:hint="@string/username"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:maxLength="20"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/font_size_17" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <TextView
+            android:id="@+id/choose_specify_pwd_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/choose_specify_pwd_text"
+            android:textColor="@color/account_details_enter_username_label"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/choose_specify_pwd_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/choose_specify_pwd_message"
+            android:textColor="@color/message_text_color"
+            android:textSize="@dimen/font_size_9"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:fontFamily="sans-serif"
+            android:hint="@string/password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/font_size_17" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <TextView
+            android:id="@+id/confirm_pwd_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_18dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/confirm_pwd_message"
+            android:textColor="@color/account_details_enter_username_label"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:fontFamily="sans-serif"
+            android:hint="@string/confirm_hint_password"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/font_size_17" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <TextView
+            android:id="@+id/tv_security_question_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_13dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_13dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/security_question_choose"
+            android:textColor="@color/account_details_enter_username_label"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_security_question_message_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_13dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_13dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/security_question_choose_text"
+            android:textColor="@color/account_details_enter_username_label"
+            android:textSize="@dimen/font_size_13"
+            android:textStyle="italic" />
+
+        <Spinner
+            android:id="@+id/et_select_question"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_5dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_5dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@drawable/spinner_bg"
+            android:dropDownWidth="fill_parent"
+            android:fontFamily="sans-serif"
+            android:hint="@string/select_question_hint"
+            android:inputType="text"
+            android:maxLength="20"
+            android:prompt="@string/security_questions_text"
+            android:spinnerMode="dropdown"
+            android:text="@string/security_question_message"
+            android:textColor="@color/account_details_enter_username_label"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <TextView
+            android:id="@+id/tv_answer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/answer_text"
+            android:textColor="@color/account_details_enter_username_label"
+            android:textSize="@dimen/font_size_16"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:background="@color/color_transparent"
+            android:fontFamily="sans-serif"
+            android:hint="@string/answer"
+            android:imeOptions="actionDone"
+            android:maxLength="20"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/font_size_17" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:background="@color/personal_details_divider" />
+
+        <TextView
+            android:id="@+id/text_privacy_policy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_41dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/privacy_policy_title"
+            android:textColor="@color/moneymart_login_forgot_password_text"
+            android:textSize="@dimen/login_et_text_size" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="@dimen/login_et_username_width"
+            android:layout_height="@dimen/login_text_header_height"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/font_size_38"
+            android:background="@color/signin_header_bg"
+            android:text="@string/btn_next"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" 
+            android:layout_marginTop="11dp"/>
+    </LinearLayout>
+
+</ScrollView>

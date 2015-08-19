@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rl_left_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_70dp"
+        android:descendantFocusability="blocksDescendants"
+        style="@style/color_white_bg" >
+
+        <View
+            android:id="@+id/v_mycheck_status"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/iv_mycheck_icon_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/margin_18dp"
+            android:layout_marginStart="@dimen/margin_18dp"
+            android:layout_marginTop="@dimen/margin_18dp"
+            android:layout_toEndOf="@+id/iv_mycheck_icon_image"
+            android:layout_toRightOf="@+id/iv_mycheck_icon_image"
+            android:contentDescription="@string/content_description" />
+
+        <TextView
+            android:id="@+id/tv_check_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_22dp"
+            android:layout_marginStart="@dimen/margin_22dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_toEndOf="@+id/iv_mycheck_icon_image"
+            android:layout_toRightOf="@+id/iv_mycheck_icon_image"
+            android:textColor="@color/check_currency_font_color"
+            android:textSize="@dimen/font_size_20" />
+
+        <ImageView
+            android:id="@+id/iv_uploading_image_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tv_check_amount"
+            android:layout_marginEnd="@dimen/margin_18dp"
+            android:layout_marginRight="@dimen/margin_18dp"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/untick" />
+
+        <ImageView
+            android:id="@+id/iv_uploading_image_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_check_amount"
+            android:layout_marginEnd="@dimen/margin_3dp"
+            android:layout_marginLeft="@dimen/margin_3dp"
+            android:layout_marginRight="@dimen/margin_3dp"
+            android:layout_marginStart="@dimen/margin_3dp"
+            android:layout_toLeftOf="@+id/iv_uploading_image_three"
+            android:layout_toStartOf="@+id/iv_uploading_image_three"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/untick" />
+
+        <ImageView
+            android:id="@+id/iv_uploading_image_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_check_amount"
+            android:layout_toLeftOf="@+id/iv_uploading_image_two"
+            android:layout_toStartOf="@+id/iv_uploading_image_two"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/untick" />
+
+        <TextView
+            android:id="@+id/tv_check_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_check_amount"
+            android:layout_marginEnd="@dimen/margin_10dp"
+            android:layout_marginRight="@dimen/margin_10dp"
+            android:layout_toLeftOf="@+id/iv_uploading_image_one"
+            android:layout_toStartOf="@+id/iv_uploading_image_one"
+            android:textSize="@dimen/font_size_9" />
+
+        <TextView
+            android:id="@+id/tv_check_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_check_amount"
+            android:layout_alignStart="@+id/tv_check_date"
+            android:layout_below="@+id/tv_check_amount"
+            android:layout_marginTop="@dimen/margin_5dp"
+            android:singleLine="true"
+            android:textColor="@color/action_required_font_color"
+            android:textSize="@dimen/font_size_15" />
+
+        <ProgressBar
+            android:id="@+id/upload_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_10dp"
+            android:layout_alignEnd="@+id/tv_check_name"
+            android:layout_alignLeft="@+id/iv_mycheck_icon_image"
+            android:layout_alignRight="@+id/tv_check_date"
+            android:layout_alignStart="@+id/tv_check_name"
+            android:layout_below="@+id/tv_check_name"
+            android:layout_marginBottom="@dimen/margin_5dp"
+            android:indeterminateOnly="false"
+            android:progressDrawable="@drawable/upload_progressbar_drawable"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_check_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_check_name"
+            android:layout_alignBottom="@+id/tv_check_name"
+            android:layout_alignEnd="@+id/iv_uploading_image_three"
+            android:layout_alignRight="@+id/iv_uploading_image_three"
+            android:textColor="@color/queued_font_color"
+            android:textSize="@dimen/font_size_11" />
+
+        <FrameLayout
+            android:id="@+id/fl_upload_failed"
+            android:layout_width="@dimen/margin_115dp"
+            android:layout_height="@dimen/margin_44dp"
+            android:layout_alignBottom="@+id/tv_check_amount"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:visibility="visible" >
+
+            <Button
+                android:id="@+id/btn_upload_failed"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="@dimen/margin_75dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/margin_18dp"
+                android:layout_marginRight="@dimen/margin_18dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:background="@drawable/try_again_btn_background"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:text="@string/btn_try_again"
+                android:textColor="@color/try_again_btn_color"
+                android:textSize="@dimen/font_size_15"
+                android:textStyle="normal" />
+        </FrameLayout>
+    </RelativeLayout>
+

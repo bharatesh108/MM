@@ -1,0 +1,39 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+
+    <style name="AppCustomTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBarTheme</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="CustomActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/color_action_bar</item>
+        <item name="android:customNavigationLayout">@layout/custom_action_bar</item>
+        <item name="android:height">@dimen/margin_48dp</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+
+    <style name="MoneyMartActivityTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:background">@null</item>
+        <item name="android:actionBarStyle">@style/CustomActionBarThemeActivity</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="CustomActionBarThemeActivity" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/color_action_bar</item>
+        <item name="android:customNavigationLayout">@layout/custom_action_bar_activity</item>
+        <item name="android:height">@dimen/margin_48dp</item>
+        <item name="android:displayOptions">showHome|useLogo</item>
+    </style>
+
+</resources>

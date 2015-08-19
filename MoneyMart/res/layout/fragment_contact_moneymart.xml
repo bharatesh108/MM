@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_contact_moneymart_customtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_15dp"
+        android:layout_marginLeft="@dimen/margin_15dp"
+        android:layout_marginRight="@dimen/margin_15dp"
+        android:layout_marginStart="@dimen/margin_15dp"
+        android:layout_marginTop="@dimen/margin_15dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/personal_details_data"
+        android:textSize="@dimen/font_size_13" />
+    <!-- android:text="@string/contact_moneymart_custom_text" -->
+
+    <LinearLayout
+        android:id="@+id/ll_contact_moneymart_phone_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_contact_moneymart_customtext"
+        android:layout_marginTop="@dimen/margin_25dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_contact_moneymart_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:background="@drawable/phone"
+            android:contentDescription="@string/phone_content" />
+
+        <TextView
+            android:id="@+id/tv_contact_moneymart_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginStart="@dimen/margin_10dp"
+            
+            android:drawableLeft="@drawable/v_line"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:drawableStart="@drawable/v_line"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/actaul_text_color" />
+        <!-- android:autoLink="phone" -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_contact_moneymart_hours_of_operations_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_contact_moneymart_phone_layout"
+        android:layout_marginTop="@dimen/margin_25dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_contact_moneymart_hours_of_operations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:background="@drawable/clock"
+            android:contentDescription="@string/phone_content" />
+
+        <TextView
+            android:id="@+id/tv_contact_moneymart_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginStart="@dimen/margin_10dp"
+            android:drawableLeft="@drawable/v_line"
+            android:drawablePadding="@dimen/margin_10dp"
+            android:drawableStart="@drawable/v_line"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/timings_text_color"/>
+
+        <TextView
+            android:id="@+id/tv_contact_moneymart_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginStart="@dimen/margin_10dp"
+            android:drawableLeft="@drawable/v_line"
+            android:drawablePadding="@dimen/margin_10dp"
+            android:drawableStart="@drawable/v_line"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/personal_details_data"
+            android:textSize="@dimen/font_size_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_contact_moneymart_mail_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_contact_moneymart_hours_of_operations_layout"
+        android:layout_marginTop="@dimen/margin_25dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_contact_moneymart_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:background="@drawable/send_symbol"
+            android:contentDescription="@string/mail_content" />
+
+        <TextView
+            android:id="@+id/tv_contact_moneymart_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginStart="@dimen/margin_10dp"
+          
+            android:drawableLeft="@drawable/v_line"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:drawableStart="@drawable/v_line"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/actaul_text_color" />
+        <!--   android:autoLink="email" -->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_contact_moneymart_weburl_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_contact_moneymart_mail_layout"
+        android:layout_marginTop="@dimen/margin_25dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_contact_moneymart_weburl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:background="@drawable/web_site"
+            android:contentDescription="@string/phone_content" />
+
+        <TextView
+            android:id="@+id/tv_contact_moneymart_weburl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:layout_marginStart="@dimen/margin_10dp"
+            
+            android:drawableLeft="@drawable/v_line"
+            android:drawablePadding="@dimen/margin_15dp"
+            android:drawableStart="@drawable/v_line"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/actaul_text_color" />
+        <!-- android:autoLink="web" -->
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_contact_moneymart_store_locator"
+        android:layout_width="@dimen/login_et_username_width"
+        android:layout_height="@dimen/login_text_header_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_30dp"
+        android:background="@color/signin_header_bg"
+        android:text="@string/store_locator"
+        android:textColor="@color/color_white"
+        android:textSize="@dimen/font_size_14"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_having_trouble_day_french"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_contact_moneymart_hours_of_operations_layout"
+        android:layout_marginStart="@dimen/margin_48dp"
+        android:layout_marginLeft="@dimen/margin_48dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/personal_details_data"
+        android:textSize="@dimen/font_size_13"
+        android:visibility="gone" />
+
+</RelativeLayout>

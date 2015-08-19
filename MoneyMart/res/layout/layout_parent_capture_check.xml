@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" 
+    style="@style/moneymart_login_bg_style" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/moneymart_login_bg"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_hearder_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:background="@drawable/app_icon"
+            android:contentDescription="@string/content_description" />
+
+        <TextView
+            android:id="@+id/tv_review_pending_custom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_hearder_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_12" />
+
+        <!--  -->
+
+        <include
+            android:id="@+id/check_capture_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_review_pending_custom_text"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            layout="@layout/layout_capture_checks" />
+
+        <include
+            android:id="@+id/transaction_check_details_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check_capture_layout"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            layout="@layout/layout_transaction_check_details" />
+
+        <include
+            android:id="@+id/check_details_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transaction_check_details_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginRight="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            layout="@layout/layout_check_details"
+            android:background="@color/color_white" 
+            android:layout_marginBottom="@dimen/margin_15dp"/>
+
+        <TextView
+            android:id="@+id/tv_check_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/check_details_layout"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/check_message_text"
+            android:textColor="@color/personal_details_label"
+            android:textSize="@dimen/font_size_12" />
+
+        <Button
+            android:id="@+id/btn_action_required_submit"
+            android:layout_width="@dimen/login_et_username_width"
+            android:layout_height="@dimen/login_text_header_height"
+            android:layout_below="@+id/tv_check_message_text"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:background="@color/signin_header_bg"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" />
+        <!-- android:text="@string/submit" -->
+
+        <Button
+            android:id="@+id/btn_action_required_cancel"
+            android:layout_width="@dimen/login_et_username_width"
+            android:layout_height="@dimen/login_text_header_height"
+            android:layout_below="@+id/btn_action_required_submit"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:background="@color/personal_details_data"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_14"
+            android:textStyle="bold" />
+        <!-- android:text="@string/cancel" -->
+
+        <ProgressBar
+            android:id="@+id/upload_progress"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="@dimen/login_et_username_width"
+            android:layout_height="@dimen/margin_10dp"
+            android:layout_below="@+id/btn_action_required_cancel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_30dp"
+            android:indeterminateOnly="false"
+            android:progressDrawable="@drawable/upload_progressbar_drawable"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</ScrollView>

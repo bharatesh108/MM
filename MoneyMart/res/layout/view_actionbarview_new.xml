@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|start"
+    android:orientation="horizontal"
+    android:paddingRight="8dp"
+    >
+
+    <ImageView
+        android:id="@+id/homeBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/back_btn"
+        android:layout_gravity="center_vertical|start"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerInside"
+        android:onClick="homeBtnClick"
+         />
+    <!--
+         <ImageButton
+        android:id="@+id/homeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:background="@drawable/back_btn"
+        android:contentDescription="@string/content_description"
+        android:onClick="homeBtnClick" />
+    -->
+
+    <TextView
+        android:id="@+id/actionbar_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_gravity="center|start"
+        android:text="@string/navigation_menu_cash_a_check"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

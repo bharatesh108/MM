@@ -1,0 +1,107 @@
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/iv_tutorial_front"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/tutorial_void_bg_port" >
+
+        <RelativeLayout
+            android:id="@+id/iv_tutorial_front_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+
+            <TextView
+                android:id="@+id/tv_front_check_1_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_front_check_1"
+                android:layout_alignBottom="@+id/tv_front_check_1"
+                android:layout_alignParentLeft="true"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_80dp"
+                android:text="@string/capture_front_check_text_bullet_1"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_front_check_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/tv_front_check_1_bullet"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="2dp"
+                android:paddingRight="@dimen/margin_80dp"
+                android:text="@string/capture_void_check_text_1"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_front_check_2_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tv_front_check_1_bullet"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/margin_80dp"
+                android:text="@string/capture_front_check_text_bullet_2"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_front_check_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_front_check_1"
+                android:layout_toEndOf="@+id/tv_front_check_2_bullet"
+                android:layout_toRightOf="@+id/tv_front_check_2_bullet"
+                android:fontFamily="sans-serif"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:paddingRight="@dimen/margin_80dp"
+                android:text="@string/capture_void_check_text_1"
+                android:textColor="@color/color_white"
+                android:textSize="@dimen/font_size_14"
+                android:textStyle="bold" />
+
+            <!--
+             <TextView
+            android:id="@+id/tv_front_check_custom_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_tutorial_front"
+            android:layout_centerInParent="true"
+            android:paddingLeft="@dimen/margin_80dp"
+            android:paddingRight="@dimen/margin_80dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:lines="5"
+            android:text="@string/capture_front_check_text"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_14" />            -->
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_tutorial_void"
+            android:layout_width="@dimen/login_btn_width"
+            android:layout_height="@dimen/login_btn_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            android:background="@drawable/login_btn_bg"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/btn_next"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/font_size_14" />
+    </RelativeLayout>
+

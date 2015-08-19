@@ -1,0 +1,12 @@
+# onClick res/layout/lib_overlay.xml #generated:90
+-keepclassmembers class * { *** onCancelButton(...); }
+
+# onClick res/layout/lib_overlay.xml #generated:104
+-keepclassmembers class * { *** onCaptureButton(...); }
+
+# onClick res/layout/lib_overlay.xml #generated:29
+-keepclassmembers class * { *** onFlashToggle(...); }
+
+# onClick res/layout/lib_overlay.xml #generated:53
+-keepclassmembers class * { *** onHelpButton(...); }
+

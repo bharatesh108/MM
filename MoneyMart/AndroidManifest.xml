@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dfc.moneymartus"
+    android:versionCode="1"
+    android:versionName="1.0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.dfc.moneymartus.Moneymart"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppCustomTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.NewPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.ChangePswActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.UpdateUsernameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.TermsConditonsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.SupportTroubleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.ContactUsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.FaqAnswerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme" >
+        </activity>
+        <!-- This is defined in MiSnap - must have! -->
+        <activity
+            android:name="com.miteksystems.misnap.MiSnap"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="standard"
+            android:process=":MiSnap"
+            android:screenOrientation="landscape"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:hardwareAccelerated="true" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.ChooseUserNamePasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.MomenCardConfActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.NoMomentumCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.SignUpLocatorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.UpdatePersonalDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.EditBankAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.FrontTutorialActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.BackTutorialActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.TutorialOverlayActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.AgreeToFeeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.CashedRejectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.SignUpAccountAlreadyExists"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <service android:name="com.dfc.moneymartus.gateway.CreateSubmitRequestService" >
+        </service>
+
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.SignUpNoMomentumCard"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.AccountCreatedActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.AddBankAccountActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.SignupInvalidUserNameActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.PrivacyPolicyActivty"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.UploadingCheckDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.FrontTutorialActivityInfoScrn"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.BackTutorialActivityInfoScrn"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.CheckCashingDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+        <activity
+            android:name="com.dfc.moneymartus.view.activity.VoidTutorialActivityInfoScrn"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+          <activity android:name="com.dfc.moneymartus.view.activity.VoidTutorialActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".view.activity.BankAccountDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MoneyMartActivityTheme"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+        </activity>
+    </application>
+
+</manifest>
